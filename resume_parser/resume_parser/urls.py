@@ -20,3 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('parser_app.urls'))
 ]
+
+# Updated: February 2025

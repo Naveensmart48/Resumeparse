@@ -1,4 +1,4 @@
-# Author: Omkar Pathak
+# Naveen Kumar: Naveen Kumar
 
 import os
 import argparse
@@ -61,3 +61,4 @@ def resume_result_wrapper(resume):
 if __name__ == '__main__':
     cli_obj = ResumeParserCli()
     pprint(cli_obj.extract_resume_data())
+# Updated: February 2025

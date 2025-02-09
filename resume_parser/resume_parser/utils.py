@@ -1,4 +1,4 @@
-# Author: Omkar Pathak
+# Naveen Kumar: Naveen Kumar
 
 import io
 import os
@@ -24,7 +24,7 @@ def extract_text_from_pdf(pdf_path):
     :param pdf_path: path to PDF file to be extracted
     :return: iterator of string of extracted text
     '''
-    # https://www.blog.pythonlibrary.org/2018/05/03/exporting-data-from-pdfs-with-python/
+    # https://www.blog.pythonlibrary.org/2025/05/03/exporting-data-from-pdfs-with-python/
     with open(pdf_path, 'rb') as fh:
         for page in PDFPage.get_pages(fh, 
                                       caching=True,
@@ -293,3 +293,4 @@ def string_found(string1, string2):
     if re.search(r"\b" + re.escape(string1) + r"\b", string2):
         return True
     return False
+# Updated: February 2025

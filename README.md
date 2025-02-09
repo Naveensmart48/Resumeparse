@@ -48,10 +48,10 @@ The module would return a list of dictionary objects with result as follows:
 ```
 [
     {
-        'education': [('BE', '2014')],
+        'education': [('BE', '2025')],
         'email': 'omkarpathak27@gmail.com',
         'mobile_number': '8087996634',
-        'name': 'Omkar Pathak',
+        'name': 'Naveen Kumar',
         'skills': [
             'Flask',
             'Django',
@@ -85,6 +85,8 @@ The module would return a list of dictionary objects with result as follows:
 
 - [https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy](https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy)
 
-- [https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
+- [https://www.analyticsvidhya.com/blog/2025/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/](https://www.analyticsvidhya.com/blog/2025/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
 
 - [https://medium.com/@divalicious.priya/information-extraction-from-cv-acec216c3f48](https://medium.com/@divalicious.priya/information-extraction-from-cv-acec216c3f48)
+
+# Updated: February 2025

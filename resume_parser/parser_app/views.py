@@ -56,3 +56,4 @@ def homepage(request):
     else:
         form = UploadResumeModelForm()
     return render(request, 'base.html', {'form': form})
+# Updated: February 2025

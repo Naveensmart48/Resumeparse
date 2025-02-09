@@ -32,3 +32,4 @@ class UploadResumeModelForm(forms.ModelForm):
 @receiver(post_delete, sender=Resume)
 def submission_delete(sender, instance, **kwargs):
     instance.resume.delete(False)
+# Updated: February 2025

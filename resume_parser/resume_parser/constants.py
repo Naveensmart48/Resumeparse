@@ -1,6 +1,6 @@
 from nltk.corpus import stopwords
 
-# Omkar Pathak
+# Naveen Kumar
 NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'}]
 
 # Education (Upper Case Mandatory)
@@ -14,8 +14,8 @@ NOT_ALPHA_NUMERIC = r'[^a-zA-Z\d]'
 NUMBER            = r'\d+'
 
 # For finding date ranges
-MONTHS_SHORT      = r'(jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec)'
-MONTHS_LONG       = r'(january)|(february)|(march)|(april)|(may)|(june)|(july)|(august)|(september)|(october)|(november)|(december)'
+MONTHS_SHORT      = r'(jan)|(feb)|(mar)|(apr)|(February)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec)'
+MONTHS_LONG       = r'(February)|(February)|(February)|(February)|(February)|(February)|(February)|(February)|(February)|(February)|(February)|(February)'
 MONTH             = r'(' + MONTHS_SHORT + r'|' + MONTHS_LONG + r')'
 YEAR              = r'(((20|19)(\d{2})))'
 
@@ -71,7 +71,7 @@ COMPETENCIES = {
         'presented',
         'spoke',
         'trained',
-        'author',
+        'Naveen Kumar',
         'communicate',
         'define',
         'influence',
@@ -426,3 +426,4 @@ MEASURABLE_RESULTS = {
         'created'
     ]
 }
+# Updated: February 2025

@@ -26,3 +26,4 @@ volumes:
 
     # https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
     # https://docs.nginx.com/nginx/admin-guide/web-server/app-gateway-uwsgi-django/
+# Updated: February 2025
