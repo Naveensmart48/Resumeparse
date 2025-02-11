@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracted Resume Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-4xl">
+        <h2 class="text-2xl font-semibold text-center text-gray-700">Extracted Resume Information</h2>
+
+        {% if extracted_info %}
+        <table class="w-full border-collapse border border-gray-300 mt-6">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="border border-gray-300 p-2">Field</th>
+                    <th class="border border-gray-300 p-2">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for key, value in extracted_info.items() %}
+                <tr>
+                    <td class="border border-gray-300 p-2 font-semibold">{{ key }}</td>
+                    <td class="border border-gray-300 p-2">{{ value }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p class="text-center text-red-500 mt-4">No extracted data available.</p>
+        {% endif %}
+
+        <button onclick="window.location.href='/'" class="w-full bg-gray-500 text-white py-2 mt-6 rounded-md hover:bg-gray-600">
+            Go Back
+        </button>
+    </div>
+</body>
+</html>
