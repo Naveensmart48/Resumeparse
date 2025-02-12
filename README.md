@@ -38,6 +38,14 @@ _Extract Name, Phone, Email, Location, Education, Skills, Experience & More!_
 ![Results Page](screenshots/Screenshot4.png)  
 
 ---
+## 📦 **Releases & Packages**  
+
+### 📌 Latest Release: [v1.0 - Initial Release](https://github.com/Naveensmart48/Resumeparse/releases)  
+✅ Supports PDF, DOCX, and TXT file parsing  
+✅ Extracts Name, Email, Phone, Location, Skills, and Experience  
+
+### 📦 GitHub Package (Coming Soon)  
+📌 Future plan: Allow users to install Resume Parser via `pip install resumeparse`  
 
 ## 🚀 **Installation Guide (Run Locally)**  
 
